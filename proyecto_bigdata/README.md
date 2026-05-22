@@ -1,11 +1,11 @@
-# ⚽ Análisis de Rendimiento en el Fútbol Europeo
+# Análisis de Rendimiento en el Fútbol Europeo
 ### Pipeline ETL · EDA · Cubo Dimensional con PySpark
 **Asignatura:** Introducción a los Sistemas Big Data — UFV 2025-2026  
 **Integrantes:** Pablo Peredo · Rodrigo Urrutia · Ricardo Sada · Nicolás Quetg
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Construir un pipeline ETL completamente automatizado que integre tres fuentes heterogéneas de datos de fútbol, las transforme en un modelo dimensional almacenado en SQLite, y responda preguntas de negocio mediante PySpark en Google Colab.
 
@@ -13,7 +13,7 @@ Construir un pipeline ETL completamente automatizado que integre tres fuentes he
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 proyecto-bigdata-laliga/
@@ -35,7 +35,7 @@ proyecto-bigdata-laliga/
 ├── notebooks/
 │   ├── 01_eda_inicial.ipynb        ← EDA inicial (Cubo OLAP)
 │   ├── 02_etl_pipeline.ipynb       ← Análisis xG ganadores/perdedores
-│   ├── 03_pyspark_cubo_colab.ipynb ← ⭐ Cuaderno PySpark (Colab)
+│   ├── 03_pyspark_cubo_colab.ipynb ←  Cuaderno PySpark (Colab)
 │   └── 04_fc24_visualizaciones.ipynb ← Visualizaciones EA FC24
 ├── outputs/
 │   └── eda/          ← 8 gráficas EDA (PNG)
@@ -50,7 +50,7 @@ proyecto-bigdata-laliga/
 
 ---
 
-## 🗃️ Fuentes de Datos
+## Fuentes de Datos
 
 | ID | Fuente | Formato | Registros | Descripción |
 |----|--------|---------|-----------|-------------|
@@ -60,7 +60,7 @@ proyecto-bigdata-laliga/
 
 ---
 
-## 🔄 Pipeline ETL
+## Pipeline ETL
 
 ```
 F1 CSV  ──┐
@@ -87,7 +87,7 @@ F3 CSV  ──┘                                          │
 
 ---
 
-## ⭐ Modelo en Estrella
+## Modelo en Estrella
 
 ```
          DIM_TIEMPO
@@ -104,7 +104,7 @@ DIM_EQUIPO ──┤── FACT_RENDIMIENTO ──┤── DIM_EQUIPO (rival)
 
 ---
 
-## 🚀 Ejecución rápida
+## Ejecución rápida
 
 ```bash
 # 1. Instalar dependencias
@@ -124,7 +124,7 @@ El pipeline genera en ~10 segundos:
 
 ---
 
-## 📊 Preguntas de Negocio (PySpark)
+## Preguntas del proyecto (PySpark)
 
 Abre `notebooks/03_pyspark_cubo_colab.ipynb` en Google Colab:
 
@@ -138,24 +138,24 @@ Abre `notebooks/03_pyspark_cubo_colab.ipynb` en Google Colab:
 
 ---
 
-## 🔗 Google Colab
+## Google Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU_USUARIO/proyecto-bigdata-laliga/blob/main/notebooks/03_pyspark_cubo_colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rmvillena04-cmyk/proyecto-bigdata-laliga/blob/main/notebooks/03_pyspark_cubo_colab.ipynb)
 
 ---
 
-## 🤖 Uso de Inteligencia Artificial
+## Uso de Inteligencia Artificial
 
 | Herramienta | Tarea | Grado modificación |
 |-------------|-------|-------------------|
-| Claude Sonnet 4.6 (Anthropic) | Generación del esqueleto de módulos ETL | Alto — código revisado y adaptado al dominio |
-| Claude Sonnet 4.6 (Anthropic) | Diseño del modelo estrella y DDL SQLite | Medio — estructura validada contra requisitos |
+| Claude Sonnet 4.6 (Anthropic) | Generación del esqueleto de módulos ETL | Medio — código revisado y adaptado al dominio |
+| Claude Sonnet 4.6 (Anthropic) | Revisión de datos y estructura del proyecto | Medio — estructura validada contra requisitos |
 
 > El código generado por IA fue ejecutado, depurado y validado por todos los integrantes del grupo.
 
 ---
 
-## 📚 Bibliografía
+## Bibliografía
 
 - Kimball, R. & Ross, M. (2013). *The Data Warehouse Toolkit*, 3rd ed. Wiley.
 - pandas Documentation — https://pandas.pydata.org/docs/
