@@ -1,0 +1,72 @@
+{
+  "extract": {
+    "F1_laliga": {
+      "registros": 1900,
+      "columnas": 26,
+      "timestamp": "2026-05-22 10:28:49.819245"
+    },
+    "F2_understat": {
+      "registros": 100,
+      "columnas": 12,
+      "timestamp": "2026-05-22 10:28:49.822348"
+    },
+    "F3_fc24": {
+      "registros": 482,
+      "columnas": 21,
+      "timestamp": "2026-05-22 10:28:49.858436"
+    }
+  },
+  "transform": {
+    "F1": {
+      "entrada": 1900,
+      "T01_duplicados_eliminados": 0,
+      "T03_blancos_corregidos": 0,
+      "T04_columnas_casteadas": 22,
+      "T05_fechas_normalizadas": 1900,
+      "T06_campos_normalizados": 4,
+      "T07_outliers_rango": 0,
+      "T08_outliers_iqr": 129,
+      "salida": 1900,
+      "descartados": 0
+    },
+    "F2": {
+      "entrada": 100,
+      "T01_duplicados_eliminados": 0,
+      "T03_blancos_corregidos": 0,
+      "T04_columnas_casteadas": 10,
+      "T06_campos_normalizados": 2,
+      "T07_outliers_rango": 0,
+      "T08_outliers_iqr": 0,
+      "salida": 100,
+      "descartados": 0
+    },
+    "F3": {
+      "entrada": 482,
+      "T01_duplicados_eliminados": 0,
+      "T03_blancos_corregidos": 0,
+      "T04_columnas_casteadas": 15,
+      "T06_campos_normalizados": 4,
+      "T07_outliers_rango": 0,
+      "T08_outliers_iqr": 67,
+      "T09_campos_pii": 1,
+      "salida": 482,
+      "descartados": 0
+    },
+    "T10": {
+      "T10_huerfanos": 0,
+      "relacion": "team\u2192club_name"
+    }
+  },
+  "load": {
+    "motor": "SQLite3",
+    "db_path": "data/football_dw.db",
+    "tablas": {
+      "DIM_TIEMPO": 204,
+      "DIM_EQUIPO": 20,
+      "DIM_TEMPORADA": 5,
+      "DIM_JUGADOR": 482,
+      "FACT_RENDIMIENTO": 3800
+    },
+    "timestamp": "2026-05-22 10:28:50.934829"
+  }
+}

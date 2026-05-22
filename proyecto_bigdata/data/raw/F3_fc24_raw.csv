@@ -1,0 +1,483 @@
+player_id,short_name,long_name,player_positions,overall,potential,age,club_name,league_name,nationality_name,value_eur,wage_eur,pace,shooting,passing,dribbling,defending,physic,goals_real,assists_real,minutes_played
+1,Player_1,Player Full Name 1,LB,86,87,25,Real Madrid,La Liga,Spain,296054716,957286,87,58,86,79,64,71,0,0,2789
+2,Player_2,Player Full Name 2,RB,84,84,29,Real Madrid,La Liga,England,273714920,1221136,65,76,61,72,52,65,0,0,843
+3,Player_3,Player Full Name 3,CB,81,84,28,Real Madrid,La Liga,Uruguay,144038996,482000,84,69,79,69,56,80,1,2,104
+4,Player_4,Player Full Name 4,ST,88,97,20,Real Madrid,La Liga,Germany,352226137,2668927,63,55,55,64,36,68,2,2,284
+5,Player_5,Player Full Name 5,RW,85,88,22,Real Madrid,La Liga,Germany,371410188,2444434,72,54,72,85,60,60,3,5,3166
+6,Player_6,Player Full Name 6,ST,94,99,19,Real Madrid,La Liga,France,696610885,3219450,69,55,70,53,63,83,2,2,2779
+7,Player_7,Player Full Name 7,RB,96,99,35,Real Madrid,La Liga,England,1365517525,9299723,77,72,87,54,77,59,1,2,361
+8,Player_8,Player Full Name 8,RW,94,99,31,Real Madrid,La Liga,Brazil,961091295,5526442,82,74,68,71,70,56,0,2,739
+9,Player_9,Player Full Name 9,ST,93,98,18,Real Madrid,La Liga,England,643207849,4779880,78,69,68,41,48,50,1,0,3397
+10,Player_10,Player Full Name 10,RW,82,86,18,Real Madrid,La Liga,Uruguay,233413209,885340,52,62,84,64,66,65,0,2,2454
+11,Player_11,Player Full Name 11,LW,79,81,21,Real Madrid,La Liga,Colombia,160667400,943632,79,54,53,78,37,75,4,5,303
+12,Player_12,Player Full Name 12,CM,90,97,18,Real Madrid,La Liga,Netherlands,517478069,3806596,82,64,66,68,53,66,0,5,1093
+13,Player_13,Player Full Name 13,RB,84,93,26,Real Madrid,La Liga,Uruguay,234738832,1738418,87,73,81,63,77,58,0,2,337
+14,Player_14,Player Full Name 14,CM,89,93,31,Real Madrid,La Liga,Spain,590637169,4051889,67,70,65,65,58,76,1,2,2649
+15,Player_15,Player Full Name 15,CB,88,97,32,Real Madrid,La Liga,Argentina,497466357,2222009,81,70,86,69,82,62,0,1,2795
+16,Player_16,Player Full Name 16,CB,83,88,20,Real Madrid,La Liga,Colombia,302250164,1630179,73,85,59,80,68,66,1,1,1875
+17,Player_17,Player Full Name 17,RB,90,97,22,Real Madrid,La Liga,Uruguay,471731558,1591704,84,71,66,58,56,86,1,0,190
+18,Player_18,Player Full Name 18,CM,83,91,18,Real Madrid,La Liga,Brazil,182515356,893469,48,61,72,83,50,64,2,3,497
+19,Player_19,Player Full Name 19,CDM,79,82,20,Real Madrid,La Liga,England,150950965,1172092,86,42,76,81,79,50,1,2,2925
+20,Player_20,Player Full Name 20,GK,76,85,20,Real Madrid,La Liga,Spain,120122577,916269,76,60,62,65,70,77,1,1,459
+21,Player_21,Player Full Name 21,LW,86,90,31,Real Madrid,La Liga,Colombia,333351694,2325223,72,90,57,61,91,53,2,4,729
+22,Player_22,Player Full Name 22,CB,79,85,23,Real Madrid,La Liga,Germany,122559336,961598,70,45,91,81,77,55,1,0,2199
+23,Player_23,Player Full Name 23,CB,89,90,33,Real Madrid,La Liga,Netherlands,414729873,1546696,75,60,78,62,83,56,0,2,2140
+24,Player_24,Player Full Name 24,CM,75,80,26,Barcelona,La Liga,Netherlands,63635415,461474,65,44,84,70,47,40,0,4,2998
+25,Player_25,Player Full Name 25,RB,78,82,18,Barcelona,La Liga,France,157245298,541369,73,78,77,60,60,57,1,3,2730
+26,Player_26,Player Full Name 26,CB,81,82,21,Barcelona,La Liga,Argentina,199856590,700370,66,55,88,79,55,61,0,2,1109
+27,Player_27,Player Full Name 27,CDM,92,99,32,Barcelona,La Liga,England,660095621,3245645,75,71,73,68,50,75,0,1,1475
+28,Player_28,Player Full Name 28,CB,85,93,29,Barcelona,La Liga,Portugal,221046211,1638984,56,41,87,69,59,73,1,2,384
+29,Player_29,Player Full Name 29,CDM,80,83,32,Barcelona,La Liga,Uruguay,208612154,627648,64,89,57,76,63,70,1,1,2351
+30,Player_30,Player Full Name 30,CDM,85,87,31,Barcelona,La Liga,Portugal,309002882,1499924,94,55,75,79,54,70,0,0,1189
+31,Player_31,Player Full Name 31,CM,82,87,34,Barcelona,La Liga,Portugal,255007237,937450,53,76,77,56,72,80,0,2,2768
+32,Player_32,Player Full Name 32,LW,87,89,36,Barcelona,La Liga,Brazil,354467375,1845755,88,74,60,64,83,62,1,4,1568
+33,Player_33,Player Full Name 33,RB,82,86,17,Barcelona,La Liga,Colombia,201378905,1166185,83,76,91,92,99,80,0,2,3309
+34,Player_34,Player Full Name 34,LB,76,81,22,Barcelona,La Liga,Uruguay,76885766,313717,92,35,67,60,75,65,0,1,1582
+35,Player_35,Player Full Name 35,CM,86,93,17,Barcelona,La Liga,Germany,429701047,1425742,81,64,74,85,50,73,1,4,3315
+36,Player_36,Player Full Name 36,RB,83,84,29,Barcelona,La Liga,Argentina,288044455,2111234,83,91,68,72,64,66,2,0,3076
+37,Player_37,Player Full Name 37,GK,82,84,36,Barcelona,La Liga,Portugal,180778020,959941,81,62,79,83,48,57,0,1,549
+38,Player_38,Player Full Name 38,LB,86,88,23,Barcelona,La Liga,Brazil,266134628,1791206,68,62,71,67,55,63,0,5,585
+39,Player_39,Player Full Name 39,ST,76,79,32,Barcelona,La Liga,Uruguay,102963315,398386,60,73,85,61,57,75,2,0,536
+40,Player_40,Player Full Name 40,GK,75,77,33,Barcelona,La Liga,Argentina,92892709,655918,93,71,73,60,52,67,0,2,2145
+41,Player_41,Player Full Name 41,ST,87,88,19,Barcelona,La Liga,Uruguay,294010195,1769106,95,86,79,70,74,67,5,1,1116
+42,Player_42,Player Full Name 42,CB,84,91,34,Barcelona,La Liga,Brazil,304023090,1538918,69,83,77,63,67,74,0,2,1975
+43,Player_43,Player Full Name 43,GK,87,87,28,Barcelona,La Liga,Germany,435656264,1406642,97,59,70,66,86,76,0,0,868
+44,Player_44,Player Full Name 44,RW,72,74,34,Barcelona,La Liga,France,77830712,468251,65,81,62,81,59,63,1,4,2971
+45,Player_45,Player Full Name 45,ST,95,99,19,Barcelona,La Liga,France,1222873724,8094054,57,76,90,75,61,90,3,0,2056
+46,Player_46,Player Full Name 46,CB,79,86,23,Atletico Madrid,La Liga,France,128009521,941340,67,71,85,73,61,53,1,1,1230
+47,Player_47,Player Full Name 47,CM,80,86,17,Atletico Madrid,La Liga,France,124456077,587576,99,42,69,87,62,68,0,5,188
+48,Player_48,Player Full Name 48,GK,84,86,23,Atletico Madrid,La Liga,England,235475528,1744028,75,63,87,53,89,65,0,0,801
+49,Player_49,Player Full Name 49,CM,76,82,21,Atletico Madrid,La Liga,Colombia,122419024,441365,68,65,70,77,50,75,0,4,649
+50,Player_50,Player Full Name 50,LB,77,79,32,Atletico Madrid,La Liga,Uruguay,107421352,436265,66,79,69,85,69,83,0,5,3065
+51,Player_51,Player Full Name 51,GK,92,96,36,Atletico Madrid,La Liga,Netherlands,596860701,3785351,68,63,70,70,76,64,2,1,1696
+52,Player_52,Player Full Name 52,CDM,88,96,26,Atletico Madrid,La Liga,Germany,358509089,2208752,77,53,87,85,61,66,0,1,2212
+53,Player_53,Player Full Name 53,CM,77,82,36,Atletico Madrid,La Liga,Argentina,86260124,605035,61,47,71,83,42,83,0,3,2972
+54,Player_54,Player Full Name 54,CM,78,83,30,Atletico Madrid,La Liga,Spain,164398470,976509,61,78,58,71,79,71,0,2,1349
+55,Player_55,Player Full Name 55,RW,82,90,26,Atletico Madrid,La Liga,Uruguay,258281796,1321207,83,61,56,69,82,96,3,2,1513
+56,Player_56,Player Full Name 56,CB,82,91,35,Atletico Madrid,La Liga,Spain,226982956,1075475,79,68,67,65,59,86,0,0,1018
+57,Player_57,Player Full Name 57,RB,83,84,30,Atletico Madrid,La Liga,Uruguay,232311912,1374335,94,59,68,99,56,73,0,0,1111
+58,Player_58,Player Full Name 58,CB,86,89,36,Atletico Madrid,La Liga,Portugal,289269230,2173829,56,84,60,53,49,58,0,0,1697
+59,Player_59,Player Full Name 59,ST,79,82,19,Atletico Madrid,La Liga,Colombia,177445909,1243668,44,67,77,90,77,59,4,0,2436
+60,Player_60,Player Full Name 60,CM,90,91,35,Atletico Madrid,La Liga,Germany,646831519,4310795,60,71,68,62,67,66,0,2,2944
+61,Player_61,Player Full Name 61,ST,83,85,34,Atletico Madrid,La Liga,Colombia,294001147,1122187,62,59,84,65,86,66,3,1,2694
+62,Player_62,Player Full Name 62,GK,87,93,25,Atletico Madrid,La Liga,England,286728919,892123,69,67,64,79,76,77,1,0,1267
+63,Player_63,Player Full Name 63,RB,82,90,36,Atletico Madrid,La Liga,England,220047222,1534389,82,55,57,89,49,71,0,1,1149
+64,Player_64,Player Full Name 64,CB,94,94,17,Atletico Madrid,La Liga,Spain,1053094052,4511028,79,64,80,72,41,57,0,2,2354
+65,Player_65,Player Full Name 65,LW,87,91,33,Atletico Madrid,La Liga,England,351678382,2719667,98,73,58,58,69,65,4,2,17
+66,Player_66,Player Full Name 66,RB,83,85,19,Atletico Madrid,La Liga,France,201160447,1030589,70,78,61,71,62,79,0,1,540
+67,Player_67,Player Full Name 67,LB,86,88,26,Atletico Madrid,La Liga,Portugal,247685839,898791,92,64,75,81,83,76,0,0,1433
+68,Player_68,Player Full Name 68,CM,72,75,26,Atletico Madrid,La Liga,Netherlands,71705540,507503,76,91,92,64,46,82,1,4,452
+69,Player_69,Player Full Name 69,RW,75,79,17,Sevilla,La Liga,Netherlands,67053270,233277,72,83,73,51,66,85,2,2,190
+70,Player_70,Player Full Name 70,CM,77,85,30,Sevilla,La Liga,Brazil,105303337,360508,91,73,74,61,49,71,1,0,1682
+71,Player_71,Player Full Name 71,GK,83,90,20,Sevilla,La Liga,Spain,289359236,1810771,78,73,75,63,56,75,0,1,1422
+72,Player_72,Player Full Name 72,LB,80,85,19,Sevilla,La Liga,Netherlands,160587873,881028,79,58,96,69,49,79,0,3,3348
+73,Player_73,Player Full Name 73,ST,76,78,28,Sevilla,La Liga,France,111620184,451427,72,81,62,87,62,40,3,1,1609
+74,Player_74,Player Full Name 74,RB,76,81,25,Sevilla,La Liga,Germany,91487603,579402,74,46,94,57,88,63,1,0,2678
+75,Player_75,Player Full Name 75,GK,77,83,31,Sevilla,La Liga,Portugal,80838584,246272,72,99,73,74,68,76,1,1,2827
+76,Player_76,Player Full Name 76,CM,92,97,29,Sevilla,La Liga,Netherlands,687756038,4574343,81,65,89,74,59,73,0,5,1705
+77,Player_77,Player Full Name 77,ST,80,83,25,Sevilla,La Liga,Netherlands,125303814,928769,77,75,67,71,52,67,5,1,3189
+78,Player_78,Player Full Name 78,LB,81,86,35,Sevilla,La Liga,Portugal,166513747,1001201,48,78,71,71,85,54,0,4,3053
+79,Player_79,Player Full Name 79,LW,88,92,28,Sevilla,La Liga,Colombia,427016462,1627265,99,53,50,53,71,75,3,1,1335
+80,Player_80,Player Full Name 80,LW,79,81,36,Sevilla,La Liga,Portugal,133463726,1056359,51,70,61,79,49,79,1,4,1108
+81,Player_81,Player Full Name 81,CB,80,87,34,Sevilla,La Liga,Uruguay,169834181,1293425,75,69,60,44,57,66,0,0,400
+82,Player_82,Player Full Name 82,ST,79,85,33,Sevilla,La Liga,France,114340020,591211,60,78,67,75,60,58,6,0,1958
+83,Player_83,Player Full Name 83,GK,84,91,19,Sevilla,La Liga,Spain,299716231,2196444,85,44,69,47,61,67,1,1,1124
+84,Player_84,Player Full Name 84,CM,78,86,18,Sevilla,La Liga,Colombia,140129599,629001,83,95,87,66,56,56,2,3,791
+85,Player_85,Player Full Name 85,RW,91,94,18,Sevilla,La Liga,Uruguay,581388658,1770610,89,75,66,68,88,61,4,3,3074
+86,Player_86,Player Full Name 86,ST,76,76,31,Sevilla,La Liga,Colombia,110833746,465954,57,54,70,79,67,74,0,0,2354
+87,Player_87,Player Full Name 87,LB,80,89,27,Sevilla,La Liga,Netherlands,176429172,905002,54,61,52,65,57,66,3,0,2355
+88,Player_88,Player Full Name 88,CM,93,99,34,Sevilla,La Liga,Germany,814923710,5539846,79,72,67,77,68,69,0,5,752
+89,Player_89,Player Full Name 89,GK,82,91,23,Sevilla,La Liga,Brazil,238463000,1427160,66,65,55,71,61,65,0,2,3157
+90,Player_90,Player Full Name 90,CB,73,81,31,Sevilla,La Liga,Colombia,52890065,297528,84,94,72,89,38,78,1,0,292
+91,Player_91,Player Full Name 91,CM,81,87,20,Sevilla,La Liga,Germany,164593473,755073,79,71,67,60,36,72,1,1,909
+92,Player_92,Player Full Name 92,RW,86,93,28,Sevilla,La Liga,Uruguay,375507226,1511147,55,73,78,50,86,60,3,3,1657
+93,Player_93,Player Full Name 93,LB,80,86,19,Sevilla,La Liga,England,124269248,740853,78,75,51,78,82,95,0,1,3110
+94,Player_94,Player Full Name 94,CB,85,91,20,Sevilla,La Liga,Colombia,256547204,1535184,68,60,77,87,66,59,1,1,2052
+95,Player_95,Player Full Name 95,RW,76,84,18,Sevilla,La Liga,Spain,120488518,737238,85,77,69,83,53,66,2,2,189
+96,Player_96,Player Full Name 96,CB,92,96,24,Real Sociedad,La Liga,Brazil,502291622,3109607,80,68,77,87,75,61,1,1,388
+97,Player_97,Player Full Name 97,CDM,82,85,34,Real Sociedad,La Liga,Colombia,218077732,1420441,44,80,71,41,73,66,0,1,2745
+98,Player_98,Player Full Name 98,CDM,86,89,20,Real Sociedad,La Liga,France,362642758,1647081,85,80,78,56,66,69,2,2,2561
+99,Player_99,Player Full Name 99,ST,82,86,23,Real Sociedad,La Liga,Germany,193353835,1116624,89,67,74,71,83,42,3,0,2071
+100,Player_100,Player Full Name 100,CDM,81,84,25,Real Sociedad,La Liga,Brazil,202229424,1103902,83,37,69,68,59,70,1,2,2728
+101,Player_101,Player Full Name 101,ST,74,74,25,Real Sociedad,La Liga,Argentina,56780237,232373,74,76,80,67,43,78,3,1,479
+102,Player_102,Player Full Name 102,LB,77,84,34,Real Sociedad,La Liga,France,112953475,397978,68,68,65,77,68,72,0,1,2403
+103,Player_103,Player Full Name 103,GK,71,77,25,Real Sociedad,La Liga,Spain,68087259,444697,85,85,52,56,72,63,2,2,3390
+104,Player_104,Player Full Name 104,CDM,72,77,33,Real Sociedad,La Liga,Germany,77887184,409633,88,98,61,77,83,60,2,0,1555
+105,Player_105,Player Full Name 105,RW,79,83,22,Real Sociedad,La Liga,Argentina,115906713,829381,81,99,89,86,81,68,3,5,1008
+106,Player_106,Player Full Name 106,CB,88,96,19,Real Sociedad,La Liga,Brazil,511194472,3973799,68,70,73,57,71,66,0,0,3165
+107,Player_107,Player Full Name 107,LW,78,81,22,Real Sociedad,La Liga,Colombia,138507086,729677,94,76,55,86,58,80,3,0,1218
+108,Player_108,Player Full Name 108,ST,88,91,19,Real Sociedad,La Liga,Brazil,457615819,2200975,69,68,66,50,55,78,1,0,1783
+109,Player_109,Player Full Name 109,CB,82,88,36,Real Sociedad,La Liga,Portugal,171825943,886564,54,53,67,67,72,67,0,1,522
+110,Player_110,Player Full Name 110,ST,86,86,35,Real Sociedad,La Liga,England,328823915,1701204,71,70,60,80,38,61,1,1,2241
+111,Player_111,Player Full Name 111,CB,78,81,35,Real Sociedad,La Liga,Uruguay,111122164,388858,64,86,76,61,57,60,0,0,2759
+112,Player_112,Player Full Name 112,GK,85,89,18,Real Sociedad,La Liga,England,280524318,1655828,56,67,59,86,99,88,1,0,2032
+113,Player_113,Player Full Name 113,GK,83,91,32,Real Sociedad,La Liga,Portugal,246332001,1031919,75,62,62,68,79,69,0,0,277
+114,Player_114,Player Full Name 114,CM,82,85,24,Real Sociedad,La Liga,Portugal,186670730,1294277,61,64,53,50,50,52,0,2,2861
+115,Player_115,Player Full Name 115,CB,77,79,33,Real Sociedad,La Liga,Spain,135766608,1034771,76,83,66,74,88,76,0,0,2186
+116,Player_116,Player Full Name 116,LW,80,83,35,Real Sociedad,La Liga,Portugal,169908552,645650,60,49,90,76,41,43,1,2,2710
+117,Player_117,Player Full Name 117,RB,73,75,33,Real Sociedad,La Liga,England,77265503,429899,60,63,69,45,51,41,0,0,3411
+118,Player_118,Player Full Name 118,GK,91,93,31,Real Sociedad,La Liga,Uruguay,575870092,2409263,66,59,99,77,53,90,0,1,2398
+119,Player_119,Player Full Name 119,CB,80,81,18,Real Sociedad,La Liga,Netherlands,202924491,1114239,69,47,77,52,74,67,2,1,2856
+120,Player_120,Player Full Name 120,CB,80,89,21,Real Sociedad,La Liga,Portugal,185413110,1380584,79,90,71,81,48,85,0,1,2265
+121,Player_121,Player Full Name 121,CM,69,78,17,Villarreal,La Liga,Brazil,52367976,210548,79,68,79,82,93,60,0,3,694
+122,Player_122,Player Full Name 122,CM,77,80,26,Villarreal,La Liga,Germany,120897245,657277,40,65,84,76,50,64,0,2,2855
+123,Player_123,Player Full Name 123,CM,82,90,21,Villarreal,La Liga,Spain,251951062,1429414,85,61,87,70,52,65,0,2,1939
+124,Player_124,Player Full Name 124,CB,79,86,29,Villarreal,La Liga,Germany,101861156,405451,93,63,80,74,62,53,1,0,904
+125,Player_125,Player Full Name 125,CB,69,74,22,Villarreal,La Liga,England,33168517,261170,79,66,69,70,53,65,0,0,1200
+126,Player_126,Player Full Name 126,LW,84,84,23,Villarreal,La Liga,Germany,189416713,851890,61,51,50,42,99,61,0,4,1703
+127,Player_127,Player Full Name 127,CM,72,76,18,Villarreal,La Liga,Argentina,58753118,304507,67,94,60,81,56,68,0,2,3146
+128,Player_128,Player Full Name 128,GK,80,85,18,Villarreal,La Liga,Spain,206173897,1469030,81,77,89,77,75,61,0,1,3050
+129,Player_129,Player Full Name 129,ST,77,84,29,Villarreal,La Liga,Spain,83300254,559117,76,99,69,63,70,70,4,2,976
+130,Player_130,Player Full Name 130,CB,73,77,23,Villarreal,La Liga,Colombia,89268466,612864,72,75,87,94,75,64,0,0,1159
+131,Player_131,Player Full Name 131,ST,80,83,24,Villarreal,La Liga,Germany,208357379,1461479,58,91,67,58,61,70,4,0,3083
+132,Player_132,Player Full Name 132,CM,85,86,32,Villarreal,La Liga,Argentina,288342262,1286689,84,84,70,65,77,68,0,5,152
+133,Player_133,Player Full Name 133,RW,81,83,33,Villarreal,La Liga,Netherlands,237792858,824893,99,48,47,65,65,63,4,2,2884
+134,Player_134,Player Full Name 134,LB,82,83,29,Villarreal,La Liga,France,261197806,848323,67,52,77,70,59,54,1,2,568
+135,Player_135,Player Full Name 135,CM,75,83,20,Villarreal,La Liga,Uruguay,65162006,385717,72,69,72,84,83,53,0,3,3299
+136,Player_136,Player Full Name 136,CM,72,80,20,Villarreal,La Liga,Colombia,46530459,251554,70,77,59,72,67,65,1,4,3026
+137,Player_137,Player Full Name 137,GK,70,79,24,Villarreal,La Liga,Germany,53966791,186094,73,92,53,60,89,64,1,5,2266
+138,Player_138,Player Full Name 138,RW,85,94,25,Villarreal,La Liga,Portugal,375353164,2616919,67,66,76,64,77,82,3,4,1672
+139,Player_139,Player Full Name 139,GK,80,85,19,Villarreal,La Liga,Netherlands,160696611,1167876,79,61,58,81,68,66,0,0,1293
+140,Player_140,Player Full Name 140,CM,71,78,32,Villarreal,La Liga,England,44751974,232385,74,62,78,99,63,50,1,4,36
+141,Player_141,Player Full Name 141,CM,82,87,30,Villarreal,La Liga,Brazil,229234400,733652,64,46,67,67,73,61,0,2,196
+142,Player_142,Player Full Name 142,RB,75,75,19,Villarreal,La Liga,Germany,80674693,323165,74,67,62,51,40,66,0,1,2051
+143,Player_143,Player Full Name 143,CDM,75,81,26,Villarreal,La Liga,France,94366587,742105,78,44,81,59,44,74,1,0,769
+144,Player_144,Player Full Name 144,GK,83,86,18,Athletic Club,La Liga,Portugal,180413240,1108135,49,69,83,86,77,70,1,2,2275
+145,Player_145,Player Full Name 145,CB,86,91,19,Athletic Club,La Liga,Portugal,313066198,1912120,67,81,71,58,70,75,0,1,3200
+146,Player_146,Player Full Name 146,RW,89,91,27,Athletic Club,La Liga,Spain,390025200,1576161,69,76,53,78,64,53,4,1,2238
+147,Player_147,Player Full Name 147,CB,81,89,22,Athletic Club,La Liga,England,179946170,1219895,67,77,87,64,54,67,1,2,980
+148,Player_148,Player Full Name 148,GK,76,76,25,Athletic Club,La Liga,Portugal,95057800,462598,68,82,68,76,30,72,2,2,2735
+149,Player_149,Player Full Name 149,LB,77,79,23,Athletic Club,La Liga,Colombia,116647413,428340,58,70,53,60,49,58,2,0,1192
+150,Player_150,Player Full Name 150,CB,71,77,20,Athletic Club,La Liga,Colombia,67314881,530320,96,56,56,67,85,83,1,2,2861
+151,Player_151,Player Full Name 151,CM,80,84,36,Athletic Club,La Liga,Uruguay,179811503,868000,65,68,66,75,82,78,1,1,1764
+152,Player_152,Player Full Name 152,ST,79,86,30,Athletic Club,La Liga,Argentina,119645901,821075,59,69,60,54,69,76,5,1,364
+153,Player_153,Player Full Name 153,ST,71,73,27,Athletic Club,La Liga,Spain,48143590,335978,75,74,78,70,62,67,3,0,1528
+154,Player_154,Player Full Name 154,RW,80,87,21,Athletic Club,La Liga,France,150365256,599288,77,46,79,75,66,64,4,3,1126
+155,Player_155,Player Full Name 155,CM,68,71,31,Athletic Club,La Liga,Germany,40426853,273888,86,56,76,81,71,67,1,4,73
+156,Player_156,Player Full Name 156,GK,82,87,21,Athletic Club,La Liga,Netherlands,168902206,1000976,70,73,75,57,73,88,0,1,2965
+157,Player_157,Player Full Name 157,CM,71,73,21,Athletic Club,La Liga,France,64112656,323218,85,84,51,77,67,81,3,1,2929
+158,Player_158,Player Full Name 158,RW,78,82,27,Athletic Club,La Liga,Netherlands,101033105,579447,59,86,75,70,42,64,3,2,2725
+159,Player_159,Player Full Name 159,RW,70,79,36,Athletic Club,La Liga,Portugal,49158121,294457,76,45,72,55,80,70,2,1,2627
+160,Player_160,Player Full Name 160,ST,75,81,32,Athletic Club,La Liga,Portugal,73212498,557140,79,55,63,82,72,77,4,1,1145
+161,Player_161,Player Full Name 161,CM,76,76,21,Athletic Club,La Liga,England,107929893,615510,69,45,65,55,65,56,2,2,518
+162,Player_162,Player Full Name 162,RB,70,78,28,Athletic Club,La Liga,Argentina,51032637,399756,80,62,76,72,54,77,0,1,2095
+163,Player_163,Player Full Name 163,GK,75,84,26,Athletic Club,La Liga,Germany,100594506,416544,67,85,57,70,70,60,1,0,2532
+164,Player_164,Player Full Name 164,CB,87,93,30,Athletic Club,La Liga,France,352176804,1302039,75,81,64,63,42,60,0,0,530
+165,Player_165,Player Full Name 165,CM,76,82,24,Athletic Club,La Liga,France,117749817,755670,72,49,65,57,68,63,1,5,2169
+166,Player_166,Player Full Name 166,CM,78,82,33,Valencia,La Liga,Portugal,118521069,483144,85,83,88,69,79,80,0,3,3217
+167,Player_167,Player Full Name 167,GK,58,62,27,Valencia,La Liga,France,11549214,74540,64,84,80,64,54,68,0,1,2312
+168,Player_168,Player Full Name 168,CB,80,84,31,Valencia,La Liga,Portugal,132298765,741697,84,86,84,67,37,74,0,1,2551
+169,Player_169,Player Full Name 169,LW,68,68,27,Valencia,La Liga,Brazil,31929920,167931,83,58,70,76,37,55,6,4,2729
+170,Player_170,Player Full Name 170,CB,93,99,20,Valencia,La Liga,Germany,757900495,4325027,72,54,68,60,69,49,0,2,2388
+171,Player_171,Player Full Name 171,CDM,88,93,26,Valencia,La Liga,France,318267590,1252751,60,72,69,65,49,79,0,1,1422
+172,Player_172,Player Full Name 172,ST,72,73,22,Valencia,La Liga,Netherlands,60557304,229648,64,72,76,72,69,80,2,0,2923
+173,Player_173,Player Full Name 173,CDM,84,93,33,Valencia,La Liga,Spain,271915769,1217941,63,42,72,79,78,47,0,1,422
+174,Player_174,Player Full Name 174,CB,74,81,33,Valencia,La Liga,Argentina,88795986,545909,68,62,61,68,61,81,1,0,1874
+175,Player_175,Player Full Name 175,CM,67,68,34,Valencia,La Liga,England,34596730,237733,72,43,89,60,84,60,1,2,2989
+176,Player_176,Player Full Name 176,LB,80,85,19,Valencia,La Liga,Portugal,211935366,1253300,58,60,40,59,88,56,1,0,1071
+177,Player_177,Player Full Name 177,LW,70,72,34,Valencia,La Liga,France,49925811,183540,92,66,71,60,66,72,4,5,3065
+178,Player_178,Player Full Name 178,ST,75,80,32,Valencia,La Liga,Germany,109264734,672958,72,65,78,72,38,49,2,1,3159
+179,Player_179,Player Full Name 179,CDM,69,77,20,Valencia,La Liga,Germany,42994126,240698,84,77,85,74,59,58,1,3,980
+180,Player_180,Player Full Name 180,ST,78,81,32,Valencia,La Liga,Brazil,159504903,997462,64,84,68,86,63,56,2,2,2771
+181,Player_181,Player Full Name 181,CDM,80,84,32,Valencia,La Liga,Germany,188844828,1390355,56,46,77,74,67,59,0,1,862
+182,Player_182,Player Full Name 182,CB,74,81,23,Valencia,La Liga,France,84677203,650311,54,75,75,60,64,86,0,0,3250
+183,Player_183,Player Full Name 183,RB,75,83,20,Valencia,La Liga,Argentina,68228249,356565,87,43,84,76,75,66,0,2,1168
+184,Player_184,Player Full Name 184,CB,78,83,26,Valencia,La Liga,Uruguay,136507594,813726,65,66,74,64,63,50,0,1,2743
+185,Player_185,Player Full Name 185,CB,95,95,32,Valencia,La Liga,Netherlands,867701858,3036999,90,59,89,48,67,69,0,1,792
+186,Player_186,Player Full Name 186,CM,73,82,27,Valencia,La Liga,Uruguay,60010114,404154,62,71,69,85,50,40,1,4,766
+187,Player_187,Player Full Name 187,CM,77,81,36,Valencia,La Liga,Uruguay,122815203,577892,53,91,64,77,89,67,0,4,2040
+188,Player_188,Player Full Name 188,RB,64,72,21,Valencia,La Liga,Spain,31197569,98113,88,81,89,75,51,69,0,1,2987
+189,Player_189,Player Full Name 189,CDM,83,83,27,Valencia,La Liga,France,252375009,1565372,91,71,69,55,64,92,0,1,2491
+190,Player_190,Player Full Name 190,CB,76,85,29,Valencia,La Liga,Portugal,122860440,806188,85,77,78,66,80,61,0,2,644
+191,Player_191,Player Full Name 191,CM,74,80,23,Real Betis,La Liga,Spain,96441136,657516,67,70,70,51,53,75,5,3,2052
+192,Player_192,Player Full Name 192,CDM,80,80,32,Real Betis,La Liga,Uruguay,145460157,1156034,65,48,71,66,81,57,0,2,228
+193,Player_193,Player Full Name 193,LW,75,79,23,Real Betis,La Liga,Germany,98649478,786943,78,86,56,60,70,63,5,0,1520
+194,Player_194,Player Full Name 194,LB,77,82,28,Real Betis,La Liga,Portugal,142764640,477207,78,62,52,83,79,66,0,3,1026
+195,Player_195,Player Full Name 195,CB,79,83,24,Real Betis,La Liga,Brazil,171098864,1079706,60,49,60,63,83,70,0,1,637
+196,Player_196,Player Full Name 196,LB,66,67,36,Real Betis,La Liga,Brazil,34291463,133960,61,63,55,75,77,83,0,2,24
+197,Player_197,Player Full Name 197,CB,76,78,21,Real Betis,La Liga,Germany,92381741,731469,61,42,72,72,67,51,0,2,1721
+198,Player_198,Player Full Name 198,ST,70,75,26,Real Betis,La Liga,Uruguay,35775991,216606,83,45,65,61,83,64,3,1,2469
+199,Player_199,Player Full Name 199,CB,73,81,20,Real Betis,La Liga,Germany,61668860,347542,50,48,69,69,65,66,2,1,1063
+200,Player_200,Player Full Name 200,CB,82,84,28,Real Betis,La Liga,Uruguay,187388853,950502,74,35,67,70,74,67,0,0,2350
+201,Player_201,Player Full Name 201,ST,69,69,33,Real Betis,La Liga,France,48209272,216404,66,99,40,81,70,79,1,1,1287
+202,Player_202,Player Full Name 202,CM,79,85,24,Real Betis,La Liga,Colombia,132600193,418405,50,57,67,56,57,55,0,3,163
+203,Player_203,Player Full Name 203,CB,78,81,33,Real Betis,La Liga,Brazil,146142978,1143299,92,58,65,87,50,58,0,2,1142
+204,Player_204,Player Full Name 204,CM,70,78,30,Real Betis,La Liga,Spain,60599513,236619,82,94,78,38,46,71,0,4,1942
+205,Player_205,Player Full Name 205,GK,78,79,28,Real Betis,La Liga,Uruguay,96914378,494519,91,85,68,55,66,53,1,0,1232
+206,Player_206,Player Full Name 206,LB,75,81,20,Real Betis,La Liga,Spain,105925145,714028,72,63,76,66,43,76,0,1,3403
+207,Player_207,Player Full Name 207,CDM,73,77,35,Real Betis,La Liga,Portugal,70782878,541302,85,79,67,97,78,95,1,2,2738
+208,Player_208,Player Full Name 208,CB,76,79,19,Real Betis,La Liga,Spain,98008913,561666,46,66,90,79,89,82,0,0,2477
+209,Player_209,Player Full Name 209,GK,77,80,34,Real Betis,La Liga,Portugal,104455731,750986,68,64,60,69,60,51,0,2,1448
+210,Player_210,Player Full Name 210,RB,81,89,26,Real Betis,La Liga,France,180328119,1104340,90,62,59,78,60,73,1,3,3184
+211,Player_211,Player Full Name 211,LB,73,74,28,Real Betis,La Liga,England,58647749,276832,85,57,53,82,83,55,0,2,703
+212,Player_212,Player Full Name 212,CDM,74,75,33,Real Betis,La Liga,France,102255045,817347,59,73,76,67,61,60,0,0,2857
+213,Player_213,Player Full Name 213,RB,73,78,32,Real Betis,La Liga,England,85227659,447194,91,54,86,85,53,64,1,2,2002
+214,Player_214,Player Full Name 214,LW,69,70,33,Osasuna,La Liga,Netherlands,37287169,207820,79,90,74,50,70,62,7,2,1991
+215,Player_215,Player Full Name 215,LW,74,76,32,Osasuna,La Liga,Netherlands,71328606,444761,73,73,60,54,77,40,2,5,535
+216,Player_216,Player Full Name 216,CM,74,74,29,Osasuna,La Liga,Uruguay,89543878,412559,76,50,74,84,67,70,0,4,1044
+217,Player_217,Player Full Name 217,CDM,74,76,33,Osasuna,La Liga,Brazil,60925478,211216,66,55,68,71,76,79,0,0,2944
+218,Player_218,Player Full Name 218,CB,74,79,24,Osasuna,La Liga,England,76484522,492551,70,50,72,69,74,76,0,1,1676
+219,Player_219,Player Full Name 219,ST,64,67,26,Osasuna,La Liga,Brazil,21063928,88004,49,62,58,66,59,78,4,0,3344
+220,Player_220,Player Full Name 220,CB,79,84,25,Osasuna,La Liga,Argentina,161391705,1009795,61,62,63,67,63,45,1,3,1763
+221,Player_221,Player Full Name 221,ST,65,74,20,Osasuna,La Liga,Germany,21981015,135931,61,67,63,80,74,62,2,0,51
+222,Player_222,Player Full Name 222,CM,78,85,18,Osasuna,La Liga,France,130437121,608863,80,69,45,69,59,67,2,3,1888
+223,Player_223,Player Full Name 223,CDM,86,90,19,Osasuna,La Liga,Germany,372013915,1644664,51,48,54,69,88,57,2,0,2469
+224,Player_224,Player Full Name 224,LW,75,80,30,Osasuna,La Liga,Portugal,98920042,596978,86,59,69,86,70,56,5,1,425
+225,Player_225,Player Full Name 225,CDM,79,83,23,Osasuna,La Liga,England,113267626,864293,58,75,62,72,61,84,1,0,18
+226,Player_226,Player Full Name 226,LB,76,76,18,Osasuna,La Liga,Netherlands,104377724,822942,74,72,70,53,40,88,0,0,472
+227,Player_227,Player Full Name 227,RB,74,75,36,Osasuna,La Liga,Uruguay,73804095,247877,84,45,81,55,42,74,3,2,107
+228,Player_228,Player Full Name 228,CB,68,71,26,Osasuna,La Liga,France,40391131,193093,82,79,76,90,86,81,0,0,3360
+229,Player_229,Player Full Name 229,CDM,79,84,22,Osasuna,La Liga,Germany,142623223,986414,75,47,49,58,73,64,0,0,1014
+230,Player_230,Player Full Name 230,CM,67,75,25,Osasuna,La Liga,Brazil,37499187,266475,45,61,84,61,47,68,0,2,2192
+231,Player_231,Player Full Name 231,CM,71,71,35,Osasuna,La Liga,Brazil,59064526,183726,70,42,72,80,80,83,1,0,1373
+232,Player_232,Player Full Name 232,CB,75,75,22,Osasuna,La Liga,France,103778402,508010,84,49,61,64,38,70,1,2,451
+233,Player_233,Player Full Name 233,RW,70,71,26,Osasuna,La Liga,Colombia,45545572,255000,55,66,86,77,57,46,6,2,2372
+234,Player_234,Player Full Name 234,CM,77,78,24,Osasuna,La Liga,Brazil,84162654,305254,84,83,99,88,52,81,0,2,2979
+235,Player_235,Player Full Name 235,CB,71,78,25,Osasuna,La Liga,Colombia,59706855,441148,90,75,61,69,58,65,0,0,691
+236,Player_236,Player Full Name 236,CB,72,74,30,Osasuna,La Liga,Brazil,64466415,467719,60,69,76,88,30,57,0,0,2299
+237,Player_237,Player Full Name 237,CM,70,79,17,Osasuna,La Liga,England,54580267,242378,97,98,64,56,71,71,0,3,2675
+238,Player_238,Player Full Name 238,LB,81,90,26,Celta Vigo,La Liga,Brazil,178618073,1265575,53,96,71,56,62,60,1,1,2695
+239,Player_239,Player Full Name 239,LB,78,86,20,Celta Vigo,La Liga,Colombia,119357079,713841,58,62,40,79,57,70,1,1,2416
+240,Player_240,Player Full Name 240,CB,76,82,35,Celta Vigo,La Liga,Spain,119735865,401521,67,68,65,84,68,73,0,1,3221
+241,Player_241,Player Full Name 241,CB,72,80,20,Celta Vigo,La Liga,Netherlands,55705557,172299,68,93,59,50,80,61,0,0,1754
+242,Player_242,Player Full Name 242,CDM,78,84,30,Celta Vigo,La Liga,Spain,112726750,526059,83,77,64,53,30,86,1,2,1258
+243,Player_243,Player Full Name 243,RW,73,79,28,Celta Vigo,La Liga,Spain,78456162,331814,97,47,91,77,41,65,1,5,262
+244,Player_244,Player Full Name 244,LW,72,75,17,Celta Vigo,La Liga,England,46812268,191589,87,88,58,87,58,66,3,2,1749
+245,Player_245,Player Full Name 245,RB,64,70,23,Celta Vigo,La Liga,France,22629573,161364,53,67,84,63,93,76,0,3,2714
+246,Player_246,Player Full Name 246,RB,75,81,29,Celta Vigo,La Liga,England,104042708,572000,70,64,50,56,44,60,2,2,836
+247,Player_247,Player Full Name 247,CDM,72,77,29,Celta Vigo,La Liga,France,48852377,246993,76,65,51,69,50,54,0,1,1799
+248,Player_248,Player Full Name 248,CM,73,74,18,Celta Vigo,La Liga,Germany,76072161,477299,66,61,67,96,55,57,0,3,918
+249,Player_249,Player Full Name 249,CDM,56,59,24,Celta Vigo,La Liga,Spain,8669015,59191,48,73,60,59,77,67,0,0,3141
+250,Player_250,Player Full Name 250,CB,71,76,25,Celta Vigo,La Liga,Spain,59983682,419057,80,66,46,64,61,73,1,0,3131
+251,Player_251,Player Full Name 251,LW,77,86,29,Celta Vigo,La Liga,Uruguay,80592549,280449,67,35,69,51,82,72,6,4,831
+252,Player_252,Player Full Name 252,LB,79,81,24,Celta Vigo,La Liga,Portugal,128528595,689125,85,37,83,63,56,61,0,0,828
+253,Player_253,Player Full Name 253,CB,73,81,27,Celta Vigo,La Liga,Uruguay,85576516,433730,49,64,85,86,30,73,0,0,3124
+254,Player_254,Player Full Name 254,RB,63,70,23,Celta Vigo,La Liga,Germany,18595658,108034,74,69,87,62,81,70,0,0,1719
+255,Player_255,Player Full Name 255,LB,77,84,27,Celta Vigo,La Liga,Uruguay,109721285,744802,76,61,71,64,43,76,1,1,3129
+256,Player_256,Player Full Name 256,GK,74,76,33,Celta Vigo,La Liga,Colombia,83189030,514020,70,79,74,79,52,73,0,2,617
+257,Player_257,Player Full Name 257,GK,74,82,27,Celta Vigo,La Liga,Argentina,100037670,711210,71,69,51,75,67,69,1,1,2614
+258,Player_258,Player Full Name 258,LW,67,73,35,Celta Vigo,La Liga,England,29216967,124300,68,44,75,75,72,49,3,2,1918
+259,Player_259,Player Full Name 259,CB,88,88,28,Celta Vigo,La Liga,Spain,436511397,2928829,61,66,65,55,54,66,0,0,1112
+260,Player_260,Player Full Name 260,RW,75,82,34,Celta Vigo,La Liga,Netherlands,113043161,665929,86,63,55,75,63,83,2,3,2879
+261,Player_261,Player Full Name 261,LB,68,71,23,Celta Vigo,La Liga,Netherlands,44341648,277166,74,75,74,49,83,70,0,2,1144
+262,Player_262,Player Full Name 262,CB,84,84,30,Celta Vigo,La Liga,Germany,303890011,1493422,82,64,87,54,52,64,0,0,1831
+263,Player_263,Player Full Name 263,LB,71,75,32,Celta Vigo,La Liga,Spain,70955724,306355,64,71,75,57,65,67,0,0,901
+264,Player_264,Player Full Name 264,LB,72,73,34,Getafe,La Liga,Argentina,53221195,364582,60,93,60,85,73,60,1,1,2586
+265,Player_265,Player Full Name 265,CM,69,76,27,Getafe,La Liga,England,42831287,160126,61,61,63,85,68,68,1,5,1154
+266,Player_266,Player Full Name 266,LB,66,72,22,Getafe,La Liga,Portugal,31207447,131057,78,67,86,85,47,70,0,1,1
+267,Player_267,Player Full Name 267,CM,72,78,26,Getafe,La Liga,Netherlands,56412299,254190,89,46,99,87,48,64,0,6,1908
+268,Player_268,Player Full Name 268,CB,71,79,22,Getafe,La Liga,Germany,65530095,241006,73,71,66,58,84,63,0,0,612
+269,Player_269,Player Full Name 269,RB,70,70,28,Getafe,La Liga,Brazil,56016832,172913,69,52,80,67,44,81,0,0,2651
+270,Player_270,Player Full Name 270,LW,79,87,32,Getafe,La Liga,Argentina,160296207,1281177,73,75,47,79,88,42,3,3,1573
+271,Player_271,Player Full Name 271,CM,69,74,17,Getafe,La Liga,Uruguay,35824790,226886,58,88,61,54,59,61,1,1,2435
+272,Player_272,Player Full Name 272,ST,63,68,35,Getafe,La Liga,France,19932388,144130,87,61,71,53,64,74,3,1,929
+273,Player_273,Player Full Name 273,CM,73,82,28,Getafe,La Liga,France,64354800,288165,61,38,62,55,62,65,0,5,2477
+274,Player_274,Player Full Name 274,CB,67,74,21,Getafe,La Liga,Spain,36241891,170841,51,77,69,57,55,53,0,0,975
+275,Player_275,Player Full Name 275,CM,60,66,28,Getafe,La Liga,Colombia,12909694,95202,51,66,68,79,64,73,0,4,2316
+276,Player_276,Player Full Name 276,CM,73,81,18,Getafe,La Liga,Brazil,62188865,425288,67,64,81,61,84,72,1,2,516
+277,Player_277,Player Full Name 277,RB,75,75,20,Getafe,La Liga,Brazil,74783894,447581,82,41,97,68,51,85,0,1,2818
+278,Player_278,Player Full Name 278,CB,67,68,19,Getafe,La Liga,Portugal,37707843,138370,74,69,87,69,67,72,0,0,3346
+279,Player_279,Player Full Name 279,RW,73,73,17,Getafe,La Liga,Brazil,71721045,340756,62,70,73,66,30,71,3,2,2100
+280,Player_280,Player Full Name 280,GK,79,81,31,Getafe,La Liga,England,130585733,979390,98,65,85,64,41,76,0,2,1016
+281,Player_281,Player Full Name 281,GK,73,80,35,Getafe,La Liga,Spain,57163746,179050,89,89,99,48,40,53,0,0,1871
+282,Player_282,Player Full Name 282,CM,73,74,26,Getafe,La Liga,Netherlands,60464045,189329,67,77,56,72,65,75,0,3,2332
+283,Player_283,Player Full Name 283,CB,66,69,35,Getafe,La Liga,Brazil,27381026,171900,61,59,43,62,84,53,1,0,1452
+284,Player_284,Player Full Name 284,LW,83,92,36,Getafe,La Liga,Uruguay,245937557,1405125,77,54,60,73,74,90,1,1,2009
+285,Player_285,Player Full Name 285,CM,80,89,28,Getafe,La Liga,Germany,197482999,743121,73,90,52,70,74,57,2,4,27
+286,Player_286,Player Full Name 286,CM,66,74,26,Rayo Vallecano,La Liga,Colombia,28018854,196820,53,80,85,66,71,58,1,3,1070
+287,Player_287,Player Full Name 287,LW,64,71,20,Rayo Vallecano,La Liga,Netherlands,28111903,88202,67,72,57,53,72,72,2,4,637
+288,Player_288,Player Full Name 288,RB,64,69,30,Rayo Vallecano,La Liga,Spain,21122883,162653,68,80,54,73,56,75,1,1,2913
+289,Player_289,Player Full Name 289,RW,83,92,35,Rayo Vallecano,La Liga,Colombia,219299923,816971,86,63,73,80,38,79,1,1,50
+290,Player_290,Player Full Name 290,RW,68,77,24,Rayo Vallecano,La Liga,France,30794435,129490,64,76,84,79,80,58,5,4,2459
+291,Player_291,Player Full Name 291,CM,84,84,32,Rayo Vallecano,La Liga,France,308807944,971808,46,55,66,39,69,69,0,2,2244
+292,Player_292,Player Full Name 292,GK,70,77,34,Rayo Vallecano,La Liga,England,54905570,203808,49,35,68,61,64,68,1,2,1549
+293,Player_293,Player Full Name 293,CM,70,76,21,Rayo Vallecano,La Liga,Spain,52951234,328385,69,71,70,66,83,69,1,3,2388
+294,Player_294,Player Full Name 294,CDM,69,76,17,Rayo Vallecano,La Liga,Portugal,53458564,367468,79,65,66,81,66,55,1,2,1292
+295,Player_295,Player Full Name 295,CB,77,83,18,Rayo Vallecano,La Liga,Brazil,141527190,788359,55,73,56,62,49,63,1,2,283
+296,Player_296,Player Full Name 296,LW,70,75,23,Rayo Vallecano,La Liga,Germany,55570567,178799,76,81,61,59,43,67,2,0,1945
+297,Player_297,Player Full Name 297,ST,74,78,19,Rayo Vallecano,La Liga,Portugal,85908984,580448,45,56,51,56,70,63,1,1,1748
+298,Player_298,Player Full Name 298,ST,63,66,20,Rayo Vallecano,La Liga,Germany,18963880,151556,54,70,67,77,48,49,3,1,2997
+299,Player_299,Player Full Name 299,CM,66,69,34,Rayo Vallecano,La Liga,Netherlands,28562276,100556,58,70,65,87,59,57,0,3,1137
+300,Player_300,Player Full Name 300,CM,72,79,20,Rayo Vallecano,La Liga,Brazil,70598819,314058,83,92,88,77,66,72,0,2,1446
+301,Player_301,Player Full Name 301,RW,72,77,29,Rayo Vallecano,La Liga,Portugal,78198263,355912,80,53,88,62,50,72,2,2,487
+302,Player_302,Player Full Name 302,LB,73,73,26,Rayo Vallecano,La Liga,England,86016394,553671,66,53,51,77,69,80,1,2,2727
+303,Player_303,Player Full Name 303,LW,78,81,34,Rayo Vallecano,La Liga,Portugal,98515970,609199,72,54,90,77,60,52,2,0,1893
+304,Player_304,Player Full Name 304,GK,77,85,22,Rayo Vallecano,La Liga,Colombia,145659391,717265,79,43,68,59,75,68,3,1,1487
+305,Player_305,Player Full Name 305,CB,77,85,35,Rayo Vallecano,La Liga,Brazil,145472744,452472,89,35,77,59,62,51,0,2,2446
+306,Player_306,Player Full Name 306,GK,73,76,19,Rayo Vallecano,La Liga,Spain,69100270,535128,96,67,66,80,72,68,0,2,388
+307,Player_307,Player Full Name 307,LW,82,87,21,Rayo Vallecano,La Liga,England,243160154,906154,71,61,86,65,49,77,2,6,507
+308,Player_308,Player Full Name 308,RB,58,63,32,Rayo Vallecano,La Liga,Germany,9421729,62425,80,60,73,86,44,67,2,0,2861
+309,Player_309,Player Full Name 309,ST,76,80,17,Rayo Vallecano,La Liga,Netherlands,117597288,845321,77,96,66,57,60,65,5,2,2291
+310,Player_310,Player Full Name 310,CM,64,65,27,Rayo Vallecano,La Liga,Uruguay,29569250,145997,85,42,85,59,50,83,0,1,386
+311,Player_311,Player Full Name 311,LB,72,76,29,Rayo Vallecano,La Liga,Portugal,73147054,334842,59,56,79,55,61,67,1,1,3361
+312,Player_312,Player Full Name 312,CM,68,69,18,Girona,La Liga,England,49876479,368817,95,57,86,65,82,71,0,5,94
+313,Player_313,Player Full Name 313,CM,71,79,32,Girona,La Liga,Colombia,56086019,185335,90,76,86,74,85,51,0,2,85
+314,Player_314,Player Full Name 314,LB,57,57,33,Girona,La Liga,Uruguay,11068744,48981,75,66,68,75,37,50,1,0,1523
+315,Player_315,Player Full Name 315,RW,71,74,33,Girona,La Liga,Brazil,69263544,418291,61,54,70,69,51,88,1,3,1469
+316,Player_316,Player Full Name 316,CM,69,74,24,Girona,La Liga,France,55596195,396915,69,82,92,86,64,67,0,5,2865
+317,Player_317,Player Full Name 317,LW,78,78,20,Girona,La Liga,Spain,150005200,932421,73,92,75,71,66,71,2,2,1372
+318,Player_318,Player Full Name 318,ST,65,67,27,Girona,La Liga,France,27913732,125746,78,72,79,60,62,73,1,1,2989
+319,Player_319,Player Full Name 319,CM,69,78,29,Girona,La Liga,Brazil,47416748,351057,63,93,98,53,78,71,1,3,2544
+320,Player_320,Player Full Name 320,RB,66,70,36,Girona,La Liga,England,26033141,86767,55,58,55,78,55,71,1,1,626
+321,Player_321,Player Full Name 321,CB,60,61,30,Girona,La Liga,Argentina,16655809,98665,58,59,68,78,59,59,1,0,2029
+322,Player_322,Player Full Name 322,RB,69,71,33,Girona,La Liga,England,44672130,345629,68,61,45,58,85,65,1,1,1463
+323,Player_323,Player Full Name 323,ST,68,69,24,Girona,La Liga,Portugal,32350980,240335,80,65,80,85,64,79,2,0,1885
+324,Player_324,Player Full Name 324,RW,62,69,18,Girona,La Liga,England,17542171,94757,48,74,65,76,74,41,5,3,3206
+325,Player_325,Player Full Name 325,RW,75,80,32,Girona,La Liga,Argentina,83855999,620506,52,87,69,56,60,76,1,3,3096
+326,Player_326,Player Full Name 326,CM,65,66,27,Girona,La Liga,Netherlands,31233526,173373,83,55,65,65,52,74,0,1,666
+327,Player_327,Player Full Name 327,CM,75,83,22,Girona,La Liga,France,64375363,258324,74,85,73,64,70,62,0,3,867
+328,Player_328,Player Full Name 328,CB,70,77,31,Girona,La Liga,France,48121271,176576,85,53,81,91,40,77,1,1,2794
+329,Player_329,Player Full Name 329,CM,69,75,36,Girona,La Liga,Colombia,32607729,213341,60,70,82,47,60,68,0,2,2615
+330,Player_330,Player Full Name 330,ST,55,58,35,Girona,La Liga,England,10328173,32257,67,66,63,68,68,59,2,2,1851
+331,Player_331,Player Full Name 331,RW,74,79,29,Girona,La Liga,France,87837299,592911,62,68,63,73,73,56,3,5,3015
+332,Player_332,Player Full Name 332,CB,70,71,23,Girona,La Liga,Netherlands,39489209,174813,80,63,53,72,64,74,0,1,725
+333,Player_333,Player Full Name 333,ST,72,78,36,Girona,La Liga,Germany,54309197,365028,74,77,70,76,76,67,3,1,2500
+334,Player_334,Player Full Name 334,CB,79,85,21,Girona,La Liga,Spain,161547190,625077,88,76,47,79,30,62,2,1,1651
+335,Player_335,Player Full Name 335,LB,67,74,29,Girona,La Liga,Colombia,33797393,177411,93,69,61,73,70,52,0,0,704
+336,Player_336,Player Full Name 336,CM,67,67,23,Mallorca,La Liga,Portugal,42007197,192777,85,63,72,42,70,61,0,4,3393
+337,Player_337,Player Full Name 337,GK,71,75,18,Mallorca,La Liga,Uruguay,70132518,473758,72,69,51,63,50,52,1,0,1874
+338,Player_338,Player Full Name 338,RW,68,71,25,Mallorca,La Liga,Spain,40957046,204224,66,83,63,68,62,66,3,2,3049
+339,Player_339,Player Full Name 339,CDM,67,68,36,Mallorca,La Liga,Germany,24913558,186623,51,88,71,79,65,75,0,3,920
+340,Player_340,Player Full Name 340,LB,64,66,28,Mallorca,La Liga,Argentina,26666666,188489,78,59,53,64,40,68,0,2,522
+341,Player_341,Player Full Name 341,LB,61,68,31,Mallorca,La Liga,England,21361314,71814,58,40,68,64,66,40,0,1,556
+342,Player_342,Player Full Name 342,CDM,69,76,34,Mallorca,La Liga,Uruguay,51434571,239978,93,86,56,59,44,71,0,1,133
+343,Player_343,Player Full Name 343,LB,60,68,25,Mallorca,La Liga,France,13594315,90981,51,71,99,77,47,91,0,0,2871
+344,Player_344,Player Full Name 344,CDM,64,72,24,Mallorca,La Liga,Portugal,19582503,61412,90,89,61,59,67,84,1,0,2762
+345,Player_345,Player Full Name 345,LB,66,69,23,Mallorca,La Liga,France,38086551,157125,77,59,42,47,65,67,0,1,277
+346,Player_346,Player Full Name 346,CDM,81,89,17,Mallorca,La Liga,Colombia,173105125,933464,63,74,69,71,56,79,1,1,2761
+347,Player_347,Player Full Name 347,RW,65,72,22,Mallorca,La Liga,Netherlands,30925908,209734,79,70,57,63,78,58,2,6,787
+348,Player_348,Player Full Name 348,RW,77,83,31,Mallorca,La Liga,Colombia,91012594,473407,81,83,72,55,64,56,2,6,901
+349,Player_349,Player Full Name 349,RW,68,77,18,Mallorca,La Liga,Brazil,33399277,229927,66,66,68,84,71,71,5,3,1153
+350,Player_350,Player Full Name 350,RW,63,69,21,Mallorca,La Liga,Spain,21306688,169153,78,78,50,38,62,75,3,3,2083
+351,Player_351,Player Full Name 351,GK,62,63,33,Mallorca,La Liga,Germany,15888124,86822,74,77,95,62,76,70,2,0,2732
+352,Player_352,Player Full Name 352,LW,65,71,27,Mallorca,La Liga,Brazil,22619379,132647,57,66,61,67,50,62,2,3,204
+353,Player_353,Player Full Name 353,CDM,63,64,35,Mallorca,La Liga,Netherlands,26347696,204218,59,58,76,60,60,73,0,1,1313
+354,Player_354,Player Full Name 354,CDM,62,64,17,Mallorca,La Liga,England,15269260,91508,86,63,66,65,72,66,1,0,907
+355,Player_355,Player Full Name 355,ST,71,78,20,Mallorca,La Liga,France,40230713,163347,79,42,79,81,90,85,6,2,721
+356,Player_356,Player Full Name 356,RW,77,82,36,Mallorca,La Liga,Colombia,127984272,582263,51,63,74,77,59,51,2,3,2423
+357,Player_357,Player Full Name 357,LB,70,77,27,Mallorca,La Liga,France,62437441,225249,81,49,92,64,64,51,1,2,3249
+358,Player_358,Player Full Name 358,LW,60,62,23,Mallorca,La Liga,France,12767870,45403,67,54,67,96,36,71,6,5,2216
+359,Player_359,Player Full Name 359,CB,71,71,28,Mallorca,La Liga,Brazil,62686206,491979,94,73,79,81,59,53,1,2,264
+360,Player_360,Player Full Name 360,CM,69,69,17,Mallorca,La Liga,Uruguay,45260912,247975,77,67,44,49,61,82,0,1,2312
+361,Player_361,Player Full Name 361,RB,60,65,18,Mallorca,La Liga,France,18165253,73856,54,69,73,64,52,65,0,2,1919
+362,Player_362,Player Full Name 362,CB,62,64,29,Almeria,La Liga,Argentina,23998713,82344,59,69,69,62,58,58,0,2,11
+363,Player_363,Player Full Name 363,RW,68,68,31,Almeria,La Liga,Colombia,32993523,217103,72,61,77,78,33,75,1,2,3124
+364,Player_364,Player Full Name 364,RB,65,72,23,Almeria,La Liga,Netherlands,32335711,252172,52,82,76,54,70,69,0,0,750
+365,Player_365,Player Full Name 365,LB,64,73,28,Almeria,La Liga,Colombia,22713752,112837,66,71,41,80,71,66,0,0,1036
+366,Player_366,Player Full Name 366,CDM,66,73,32,Almeria,La Liga,England,31095753,163998,70,84,73,50,75,63,0,1,994
+367,Player_367,Player Full Name 367,LB,74,74,19,Almeria,La Liga,Netherlands,87227133,411367,44,85,59,68,84,56,1,3,1018
+368,Player_368,Player Full Name 368,LW,75,79,25,Almeria,La Liga,Colombia,99825935,687529,74,50,57,81,62,77,1,5,3030
+369,Player_369,Player Full Name 369,CB,74,80,26,Almeria,La Liga,Brazil,77839385,418240,66,62,62,74,60,87,2,0,258
+370,Player_370,Player Full Name 370,CB,58,67,28,Almeria,La Liga,France,12918079,55974,73,60,64,52,47,67,0,0,1910
+371,Player_371,Player Full Name 371,LW,59,61,21,Almeria,La Liga,Netherlands,16168251,97086,64,67,55,69,86,70,1,5,461
+372,Player_372,Player Full Name 372,LB,71,72,24,Almeria,La Liga,Colombia,50940086,153865,77,70,75,64,75,90,0,1,541
+373,Player_373,Player Full Name 373,RB,73,75,31,Almeria,La Liga,France,65261135,350713,73,65,44,69,73,83,0,1,1068
+374,Player_374,Player Full Name 374,LB,67,72,27,Almeria,La Liga,Spain,27107295,111941,77,61,55,53,63,71,0,0,440
+375,Player_375,Player Full Name 375,CB,73,79,31,Almeria,La Liga,Brazil,74870985,231094,70,64,84,60,59,80,0,2,149
+376,Player_376,Player Full Name 376,GK,70,71,24,Almeria,La Liga,Portugal,37672844,272006,80,89,68,66,63,47,0,1,1707
+377,Player_377,Player Full Name 377,CB,61,66,27,Almeria,La Liga,Uruguay,21200050,143530,85,70,71,59,66,99,0,2,981
+378,Player_378,Player Full Name 378,GK,78,82,20,Almeria,La Liga,France,131334780,445365,74,70,71,47,47,49,1,0,1554
+379,Player_379,Player Full Name 379,RB,68,73,26,Almeria,La Liga,Brazil,33016853,242976,63,70,64,89,54,61,1,0,866
+380,Player_380,Player Full Name 380,LW,70,72,25,Almeria,La Liga,Brazil,46773427,333064,40,82,74,74,92,57,5,3,3133
+381,Player_381,Player Full Name 381,CDM,74,82,30,Almeria,La Liga,Spain,83632839,593127,66,67,57,59,96,51,1,0,485
+382,Player_382,Player Full Name 382,CB,69,76,36,Almeria,La Liga,France,50684072,243798,77,66,73,46,45,53,1,1,3312
+383,Player_383,Player Full Name 383,CDM,70,79,36,Almeria,La Liga,Argentina,58628194,209077,68,46,60,57,62,50,1,2,1583
+384,Player_384,Player Full Name 384,LW,67,67,35,Almeria,La Liga,Netherlands,27387535,134809,71,70,55,69,69,77,4,1,102
+385,Player_385,Player Full Name 385,CB,69,71,26,Almeria,La Liga,Argentina,34550893,156741,52,70,78,70,67,79,1,0,1648
+386,Player_386,Player Full Name 386,CM,57,58,31,Almeria,La Liga,Portugal,9407538,36381,80,73,66,51,30,64,1,2,1645
+387,Player_387,Player Full Name 387,CM,71,77,33,Almeria,La Liga,Germany,64790183,452484,73,65,65,70,99,65,1,1,2436
+388,Player_388,Player Full Name 388,LW,72,73,31,Cadiz,La Liga,Colombia,51254786,226943,64,53,43,83,57,94,1,3,2807
+389,Player_389,Player Full Name 389,CDM,66,68,31,Cadiz,La Liga,Germany,25248669,177482,54,56,64,74,78,71,1,1,1505
+390,Player_390,Player Full Name 390,CB,59,62,29,Cadiz,La Liga,Uruguay,11571269,66215,82,99,68,68,72,61,1,1,2532
+391,Player_391,Player Full Name 391,CB,55,62,33,Cadiz,La Liga,Netherlands,8724447,50116,74,78,77,78,62,61,0,0,2136
+392,Player_392,Player Full Name 392,CB,55,56,36,Cadiz,La Liga,Uruguay,9096689,72412,57,67,64,55,62,59,0,2,1244
+393,Player_393,Player Full Name 393,LB,78,82,29,Cadiz,La Liga,Netherlands,99595416,792770,78,51,76,69,80,64,0,0,951
+394,Player_394,Player Full Name 394,LW,72,77,24,Cadiz,La Liga,Brazil,70401132,332151,64,55,80,70,38,90,5,0,1243
+395,Player_395,Player Full Name 395,LW,69,73,19,Cadiz,La Liga,Portugal,40071413,194629,73,62,61,80,88,89,0,3,3072
+396,Player_396,Player Full Name 396,CDM,70,70,27,Cadiz,La Liga,Spain,55911884,348228,71,67,61,70,62,68,0,1,763
+397,Player_397,Player Full Name 397,CB,72,80,17,Cadiz,La Liga,Netherlands,44040272,207707,48,72,67,72,75,65,0,1,1442
+398,Player_398,Player Full Name 398,CM,61,65,29,Cadiz,La Liga,Netherlands,19968215,121273,83,99,76,62,75,58,1,3,430
+399,Player_399,Player Full Name 399,CDM,72,81,28,Cadiz,La Liga,France,62238272,388820,83,69,53,75,65,74,1,1,2066
+400,Player_400,Player Full Name 400,CM,66,67,22,Cadiz,La Liga,Argentina,26227988,102208,92,53,84,73,55,63,0,3,2512
+401,Player_401,Player Full Name 401,RB,74,81,22,Cadiz,La Liga,France,78339331,587103,92,64,79,80,56,84,0,1,1719
+402,Player_402,Player Full Name 402,LB,58,60,32,Cadiz,La Liga,Brazil,10520145,51568,74,56,63,70,51,74,2,2,2901
+403,Player_403,Player Full Name 403,GK,65,72,32,Cadiz,La Liga,France,19297901,91823,70,77,74,71,62,82,0,1,905
+404,Player_404,Player Full Name 404,RW,65,68,21,Cadiz,La Liga,Brazil,19402620,123034,83,80,45,67,57,75,1,3,3268
+405,Player_405,Player Full Name 405,RW,73,82,34,Cadiz,La Liga,England,78856894,565943,85,68,64,76,86,87,5,3,1371
+406,Player_406,Player Full Name 406,CB,59,62,23,Cadiz,La Liga,Colombia,12294655,77548,63,86,50,47,30,69,0,1,1083
+407,Player_407,Player Full Name 407,CM,64,70,35,Cadiz,La Liga,Portugal,19367495,121858,50,73,59,64,57,85,2,4,836
+408,Player_408,Player Full Name 408,ST,55,55,36,Cadiz,La Liga,Brazil,6797339,37994,69,54,62,74,49,63,4,0,1608
+409,Player_409,Player Full Name 409,RB,68,76,20,Cadiz,La Liga,England,37097978,223619,55,40,77,55,60,65,1,0,1259
+410,Player_410,Player Full Name 410,CB,71,78,32,Granada,La Liga,England,53762542,224089,81,40,61,76,60,49,0,0,2521
+411,Player_411,Player Full Name 411,LB,57,59,25,Granada,La Liga,Argentina,13230608,63313,78,50,61,72,38,80,1,0,3135
+412,Player_412,Player Full Name 412,RW,57,58,33,Granada,La Liga,Brazil,8585013,46343,88,83,79,56,56,65,3,5,1251
+413,Player_413,Player Full Name 413,LW,55,58,23,Granada,La Liga,England,7773674,33725,99,74,62,77,38,64,4,4,1424
+414,Player_414,Player Full Name 414,LW,59,68,34,Granada,La Liga,France,13217511,50220,63,60,95,66,70,71,3,4,1254
+415,Player_415,Player Full Name 415,LB,58,60,20,Granada,La Liga,Colombia,13452430,60083,76,68,74,81,47,55,0,7,3121
+416,Player_416,Player Full Name 416,RW,77,80,24,Granada,La Liga,Portugal,137052215,414881,47,54,80,74,73,70,4,4,1445
+417,Player_417,Player Full Name 417,CM,59,64,29,Granada,La Liga,France,10827882,55510,99,76,75,55,46,66,0,1,3383
+418,Player_418,Player Full Name 418,CB,61,67,28,Granada,La Liga,Brazil,14804962,108050,59,64,75,60,66,74,1,4,455
+419,Player_419,Player Full Name 419,GK,66,74,18,Granada,La Liga,Netherlands,23957123,85195,74,87,74,70,72,61,0,2,2781
+420,Player_420,Player Full Name 420,LW,59,63,18,Granada,La Liga,Spain,16561153,88981,78,66,81,65,45,62,1,3,2693
+421,Player_421,Player Full Name 421,CB,62,70,34,Granada,La Liga,Colombia,14169165,66038,49,51,67,79,65,76,0,1,1914
+422,Player_422,Player Full Name 422,RB,65,73,18,Granada,La Liga,Netherlands,32955299,247014,67,63,89,46,58,76,0,1,2238
+423,Player_423,Player Full Name 423,LW,58,62,17,Granada,La Liga,Netherlands,14791609,115842,95,86,67,87,72,62,2,3,444
+424,Player_424,Player Full Name 424,GK,66,67,19,Granada,La Liga,Uruguay,39591814,293920,89,43,70,66,60,50,1,0,2752
+425,Player_425,Player Full Name 425,CM,69,78,32,Granada,La Liga,England,44715783,144088,40,75,82,97,71,82,0,2,3284
+426,Player_426,Player Full Name 426,GK,62,67,17,Granada,La Liga,Argentina,19479072,104013,83,57,55,65,70,52,0,2,626
+427,Player_427,Player Full Name 427,LB,70,78,26,Granada,La Liga,Portugal,36692369,152645,81,84,62,62,44,70,0,0,691
+428,Player_428,Player Full Name 428,CM,56,64,25,Granada,La Liga,Uruguay,10101332,33121,80,56,85,89,76,62,0,3,128
+429,Player_429,Player Full Name 429,GK,68,73,18,Granada,La Liga,Colombia,50422076,256723,54,81,58,69,56,88,1,1,2075
+430,Player_430,Player Full Name 430,CM,61,66,22,Granada,La Liga,Germany,12190115,91896,76,51,74,79,68,68,2,1,2577
+431,Player_431,Player Full Name 431,LW,63,68,34,Granada,La Liga,Netherlands,23126914,136901,55,63,81,90,81,73,4,3,1184
+432,Player_432,Player Full Name 432,CM,63,71,24,Granada,La Liga,England,17737686,132818,78,79,86,80,76,77,0,3,143
+433,Player_433,Player Full Name 433,RB,58,58,23,Granada,La Liga,Spain,8551846,63156,49,67,59,93,57,68,1,1,1915
+434,Player_434,Player Full Name 434,LB,65,73,36,Granada,La Liga,Uruguay,29567831,167742,54,60,63,80,78,61,0,0,2910
+435,Player_435,Player Full Name 435,ST,56,58,28,Las Palmas,La Liga,Netherlands,9515355,44844,80,73,71,74,62,77,3,1,3091
+436,Player_436,Player Full Name 436,CB,57,65,22,Las Palmas,La Liga,Germany,12857047,54628,85,76,78,95,55,63,1,3,1961
+437,Player_437,Player Full Name 437,RB,59,66,31,Las Palmas,La Liga,Netherlands,10255823,46911,93,69,74,57,61,77,1,1,2852
+438,Player_438,Player Full Name 438,CB,64,69,24,Las Palmas,La Liga,Portugal,31249486,207242,75,85,90,80,62,65,1,1,1582
+439,Player_439,Player Full Name 439,CM,59,62,29,Las Palmas,La Liga,Uruguay,9967458,38480,82,55,75,55,78,84,1,3,2289
+440,Player_440,Player Full Name 440,RB,68,70,20,Las Palmas,La Liga,Portugal,48524250,363320,71,54,57,81,71,57,1,1,106
+441,Player_441,Player Full Name 441,CM,61,65,22,Las Palmas,La Liga,France,20745411,84932,68,76,53,76,53,71,0,3,682
+442,Player_442,Player Full Name 442,ST,56,63,17,Las Palmas,La Liga,Brazil,11427478,48120,63,45,54,65,52,54,2,1,1589
+443,Player_443,Player Full Name 443,RW,66,70,36,Las Palmas,La Liga,Brazil,35466244,237480,81,51,51,71,49,76,1,2,1357
+444,Player_444,Player Full Name 444,GK,61,65,35,Las Palmas,La Liga,France,18013794,98371,78,91,63,69,85,51,1,0,796
+445,Player_445,Player Full Name 445,RB,56,61,26,Las Palmas,La Liga,Colombia,8380274,63691,57,71,74,74,71,79,0,1,2652
+446,Player_446,Player Full Name 446,CM,62,68,36,Las Palmas,La Liga,Portugal,21675776,113815,60,52,60,67,75,80,1,1,2551
+447,Player_447,Player Full Name 447,CB,71,77,25,Las Palmas,La Liga,Germany,52570941,266763,63,78,56,86,58,67,0,2,1301
+448,Player_448,Player Full Name 448,CB,62,63,18,Las Palmas,La Liga,Germany,22189323,171207,84,80,60,53,62,59,1,1,863
+449,Player_449,Player Full Name 449,GK,59,67,25,Las Palmas,La Liga,Argentina,11654584,40371,83,39,89,64,67,58,0,3,1994
+450,Player_450,Player Full Name 450,LB,56,61,21,Las Palmas,La Liga,Brazil,7336532,44474,75,62,72,74,66,54,1,0,1997
+451,Player_451,Player Full Name 451,RB,58,65,27,Las Palmas,La Liga,Spain,8641120,42631,63,61,61,50,67,52,1,1,2045
+452,Player_452,Player Full Name 452,CM,68,76,24,Las Palmas,La Liga,France,37352531,175540,50,91,89,60,89,40,1,3,590
+453,Player_453,Player Full Name 453,ST,73,80,22,Las Palmas,La Liga,Uruguay,60590369,185934,70,60,68,65,46,70,1,0,932
+454,Player_454,Player Full Name 454,GK,72,76,25,Las Palmas,La Liga,Uruguay,65911262,392968,48,41,67,76,64,67,0,0,732
+455,Player_455,Player Full Name 455,CB,60,68,36,Las Palmas,La Liga,Uruguay,19320530,147813,81,86,60,69,87,57,0,2,375
+456,Player_456,Player Full Name 456,GK,65,70,25,Las Palmas,La Liga,France,26766810,189119,77,66,58,57,49,64,0,0,1621
+457,Player_457,Player Full Name 457,ST,61,70,20,Las Palmas,La Liga,Portugal,15300548,118360,40,35,99,51,60,51,3,0,1932
+458,Player_458,Player Full Name 458,GK,63,70,32,Leganes,La Liga,Spain,24860601,130825,76,81,58,65,67,72,1,0,2589
+459,Player_459,Player Full Name 459,LW,64,64,26,Leganes,La Liga,Argentina,21948288,148489,53,74,81,62,61,54,3,2,2062
+460,Player_460,Player Full Name 460,CB,64,69,36,Leganes,La Liga,Uruguay,21409698,92733,90,69,46,69,59,82,0,0,2041
+461,Player_461,Player Full Name 461,RW,55,55,23,Leganes,La Liga,Portugal,7493905,34455,99,69,79,50,48,83,3,2,3182
+462,Player_462,Player Full Name 462,CB,58,58,35,Leganes,La Liga,Portugal,9059550,59389,40,58,56,71,72,73,0,1,265
+463,Player_463,Player Full Name 463,CB,63,68,20,Leganes,La Liga,Brazil,16265312,111246,70,86,77,82,62,78,0,1,764
+464,Player_464,Player Full Name 464,LB,72,72,24,Leganes,La Liga,France,78303498,541228,63,59,42,92,73,70,0,0,2025
+465,Player_465,Player Full Name 465,RW,67,69,26,Leganes,La Liga,Portugal,24956169,90934,84,67,67,55,72,87,2,4,2054
+466,Player_466,Player Full Name 466,ST,65,69,35,Leganes,La Liga,Germany,31470477,197426,76,42,61,88,49,80,0,1,1913
+467,Player_467,Player Full Name 467,CB,73,79,26,Leganes,La Liga,France,60138551,438325,82,54,65,69,64,73,0,3,1250
+468,Player_468,Player Full Name 468,CB,68,74,17,Leganes,La Liga,Germany,34823500,207991,72,86,84,65,30,71,0,1,3373
+469,Player_469,Player Full Name 469,CB,67,72,21,Leganes,La Liga,Brazil,28310908,95057,76,55,80,38,53,78,0,0,2388
+470,Player_470,Player Full Name 470,CM,57,60,28,Leganes,La Liga,Uruguay,13347784,80839,83,63,65,65,54,66,0,4,22
+471,Player_471,Player Full Name 471,CB,55,58,19,Leganes,La Liga,England,10482319,67539,80,65,75,79,64,69,1,1,197
+472,Player_472,Player Full Name 472,CM,64,66,30,Leganes,La Liga,Portugal,26052015,160278,98,79,71,80,37,76,0,6,2468
+473,Player_473,Player Full Name 473,CB,59,65,24,Leganes,La Liga,Colombia,10842152,39739,58,83,61,60,42,66,2,2,3347
+474,Player_474,Player Full Name 474,RB,60,65,30,Leganes,La Liga,Colombia,12377739,90590,75,72,66,59,67,61,2,0,1274
+475,Player_475,Player Full Name 475,CM,58,59,33,Leganes,La Liga,Spain,8760834,65757,67,65,65,65,56,70,0,6,2750
+476,Player_476,Player Full Name 476,CDM,75,84,17,Leganes,La Liga,Germany,106503258,540894,63,71,82,78,76,74,0,2,571
+477,Player_477,Player Full Name 477,CM,56,59,31,Leganes,La Liga,Uruguay,6826399,46867,64,45,42,62,60,59,1,4,1294
+478,Player_478,Player Full Name 478,CB,63,64,33,Leganes,La Liga,France,20659855,162304,79,80,49,69,60,73,1,0,139
+479,Player_479,Player Full Name 479,LB,57,60,23,Leganes,La Liga,Germany,7720498,52233,68,50,54,61,30,67,1,3,1197
+480,Player_480,Player Full Name 480,LW,63,70,20,Leganes,La Liga,Brazil,20061346,78506,55,70,67,87,60,93,2,3,2322
+481,Player_481,Player Full Name 481,ST,66,72,29,Leganes,La Liga,Spain,32901164,120258,78,99,75,73,49,74,1,0,2929
+482,Player_482,Player Full Name 482,CM,62,62,33,Leganes,La Liga,Brazil,20218433,73184,60,59,58,81,33,69,0,1,1890

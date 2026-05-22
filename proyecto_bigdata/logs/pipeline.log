@@ -1,0 +1,94 @@
+2026-05-22 10:28:49,418 [PIPELINE] ============================================================
+2026-05-22 10:28:49,418 [PIPELINE] INICIO DEL PIPELINE ETL — Análisis Fútbol LaLiga
+2026-05-22 10:28:49,418 [PIPELINE] Timestamp: 2026-05-22 10:28:49.418683
+2026-05-22 10:28:49,418 [PIPELINE] ============================================================
+2026-05-22 10:28:49,418 [PIPELINE] 
+>>> FASE 1: EXTRACT
+2026-05-22 10:28:49,818 [PIPELINE] F1 generado (sintético): 1900 registros, 26 columnas
+2026-05-22 10:28:49,822 [PIPELINE] F2 generado: 100 registros
+2026-05-22 10:28:49,858 [PIPELINE] F3 generado: 482 registros
+2026-05-22 10:28:49,858 [PIPELINE] EXTRACT completado. Tracking guardado.
+2026-05-22 10:28:49,858 [PIPELINE] F1=1900 F2=100 F3=482 registros extraídos
+2026-05-22 10:28:49,858 [PIPELINE] 
+>>> FASE 2: TRANSFORM
+2026-05-22 10:28:50,427 [PIPELINE] === Transformando F1 LaLiga ===
+2026-05-22 10:28:50,439 [PIPELINE] T01 [F1] duplicados eliminados: 0
+2026-05-22 10:28:50,448 [PIPELINE] T03 [F1] blancos corregidos: 0
+2026-05-22 10:28:50,453 [PIPELINE] T04 [F1] tipos casteados
+2026-05-22 10:28:50,455 [PIPELINE] T05 [F1] fechas normalizadas: 1900
+2026-05-22 10:28:50,461 [PIPELINE] T06 [F1] campos normalizados: 4
+2026-05-22 10:28:50,461 [PIPELINE] T07 [F1] outliers de rango corregidos: 0
+2026-05-22 10:28:50,464 [PIPELINE] T08 [F1] FTHG: 13 outliers acotados [IQR]
+2026-05-22 10:28:50,467 [PIPELINE] T08 [F1] FTAG: 9 outliers acotados [IQR]
+2026-05-22 10:28:50,469 [PIPELINE] T08 [F1] HS: 49 outliers acotados [IQR]
+2026-05-22 10:28:50,472 [PIPELINE] T08 [F1] AS: 19 outliers acotados [IQR]
+2026-05-22 10:28:50,474 [PIPELINE] T08 [F1] HST: 1 outliers acotados [IQR]
+2026-05-22 10:28:50,476 [PIPELINE] T08 [F1] AST: 38 outliers acotados [IQR]
+2026-05-22 10:28:50,496 [PIPELINE] F1: 1900 → 1900 registros
+2026-05-22 10:28:50,496 [PIPELINE] === Transformando F2 Understat ===
+2026-05-22 10:28:50,498 [PIPELINE] T01 [F2] duplicados eliminados: 0
+2026-05-22 10:28:50,501 [PIPELINE] T03 [F2] blancos corregidos: 0
+2026-05-22 10:28:50,502 [PIPELINE] T04 [F2] tipos casteados
+2026-05-22 10:28:50,503 [PIPELINE] T06 [F2] campos normalizados: 2
+2026-05-22 10:28:50,503 [PIPELINE] T07 [F2] outliers de rango corregidos: 0
+2026-05-22 10:28:50,512 [PIPELINE] F2: 100 → 100 registros
+2026-05-22 10:28:50,512 [PIPELINE] === Transformando F3 FC24 ===
+2026-05-22 10:28:50,517 [PIPELINE] T01 [F3] duplicados eliminados: 0
+2026-05-22 10:28:50,522 [PIPELINE] T03 [F3] blancos corregidos: 0
+2026-05-22 10:28:50,525 [PIPELINE] T04 [F3] tipos casteados
+2026-05-22 10:28:50,528 [PIPELINE] T06 [F3] campos normalizados: 4
+2026-05-22 10:28:50,532 [PIPELINE] T07 [F3] outliers de rango corregidos: 0
+2026-05-22 10:28:50,536 [PIPELINE] T08 [F3] value_eur: 37 outliers acotados [IQR]
+2026-05-22 10:28:50,538 [PIPELINE] T08 [F3] wage_eur: 30 outliers acotados [IQR]
+2026-05-22 10:28:50,542 [PIPELINE] T09 [F3] campos PII seudonimizados: 1
+2026-05-22 10:28:50,546 [PIPELINE] F3: 482 → 482 registros
+2026-05-22 10:28:50,554 [PIPELINE] T10 [F2→F3] registros huérfanos team→club_name: 0
+2026-05-22 10:28:50,554 [PIPELINE] TRANSFORM completado.
+2026-05-22 10:28:50,554 [PIPELINE] F1=1900 F2=100 F3=482 registros limpios
+2026-05-22 10:28:50,554 [PIPELINE] 
+>>> FASE 3: LOAD
+2026-05-22 10:28:50,587 [PIPELINE] DIM_TIEMPO: 204 filas
+2026-05-22 10:28:50,590 [PIPELINE] DIM_EQUIPO: 20 filas
+2026-05-22 10:28:50,590 [PIPELINE] DIM_TEMPORADA: 5 filas
+2026-05-22 10:28:50,592 [PIPELINE] DIM_JUGADOR: 482 filas
+2026-05-22 10:28:50,806 [PIPELINE] FACT_RENDIMIENTO: 3800 filas
+2026-05-22 10:28:50,906 [PIPELINE]   DIM_TIEMPO: 204 registros cargados
+2026-05-22 10:28:50,907 [PIPELINE]   DIM_EQUIPO: 20 registros cargados
+2026-05-22 10:28:50,907 [PIPELINE]   DIM_TEMPORADA: 5 registros cargados
+2026-05-22 10:28:50,907 [PIPELINE]   DIM_JUGADOR: 482 registros cargados
+2026-05-22 10:28:50,907 [PIPELINE]   FACT_RENDIMIENTO: 3800 registros cargados
+2026-05-22 10:28:50,934 [PIPELINE] CSVs finales exportados a data/final/
+2026-05-22 10:28:50,935 [PIPELINE] LOAD completado.
+2026-05-22 10:28:50,935 [PIPELINE] FACT_RENDIMIENTO: 3800 filas cargadas
+2026-05-22 10:28:50,935 [PIPELINE] 
+>>> FASE 4: EDA
+2026-05-22 10:28:51,438 [PIPELINE] Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-05-22 10:28:51,852 [PIPELINE] generated new fontManager
+2026-05-22 10:28:52,180 [PIPELINE] === Iniciando EDA ===
+2026-05-22 10:28:52,203 [PIPELINE] G01 Heatmap correlaciones
+2026-05-22 10:28:52,731 [PIPELINE]   Guardado: G01_heatmap_correlaciones.png
+2026-05-22 10:28:52,731 [PIPELINE] G02 Histogramas KDE
+2026-05-22 10:28:53,799 [PIPELINE]   Guardado: G02_histogramas_kde.png
+2026-05-22 10:28:53,799 [PIPELINE] G03 Boxplots
+2026-05-22 10:28:54,230 [PIPELINE]   Guardado: G03_boxplots_equipo.png
+2026-05-22 10:28:54,231 [PIPELINE] G04 Barras frecuencia
+2026-05-22 10:28:54,637 [PIPELINE]   Guardado: G04_barras_frecuencias.png
+2026-05-22 10:28:54,637 [PIPELINE] G05 Serie temporal
+2026-05-22 10:28:55,143 [PIPELINE]   Guardado: G05_serie_temporal.png
+2026-05-22 10:28:55,143 [PIPELINE] G06 Scatter xG vs rendimiento
+2026-05-22 10:28:55,632 [PIPELINE]   Guardado: G06_scatter_pairplot.png
+2026-05-22 10:28:55,632 [PIPELINE] G07 Heatmap rendimiento por equipo/temporada
+2026-05-22 10:28:56,036 [PIPELINE]   Guardado: G07_heatmap_rendimiento.png
+2026-05-22 10:28:56,037 [PIPELINE] G08 Funnel tracking
+2026-05-22 10:28:56,264 [PIPELINE]   Guardado: G08_funnel_tracking.png
+2026-05-22 10:28:56,264 [PIPELINE] EDA completado. 8 gráficas generadas en /home/claude/proyecto_bigdata/src/../outputs/eda
+2026-05-22 10:28:56,264 [PIPELINE] EDA: 8 gráficas generadas
+2026-05-22 10:28:56,264 [PIPELINE] 
+============================================================
+2026-05-22 10:28:56,264 [PIPELINE] PIPELINE COMPLETADO en 6.8s
+2026-05-22 10:28:56,264 [PIPELINE] ============================================================
+2026-05-22 10:28:56,265 [PIPELINE] 
+── RESUMEN TRACKING ──
+2026-05-22 10:28:56,265 [PIPELINE]   extract: {"F1_laliga": {"registros": 1900, "columnas": 26, "timestamp": "2026-05-22 10:28:49.819245"}, "F2_understat": {"registro...
+2026-05-22 10:28:56,265 [PIPELINE]   transform: {"F1": {"entrada": 1900, "T01_duplicados_eliminados": 0, "T03_blancos_corregidos": 0, "T04_columnas_casteadas": 22, "T05...
+2026-05-22 10:28:56,265 [PIPELINE]   load: {"motor": "SQLite3", "db_path": "data/football_dw.db", "tablas": {"DIM_TIEMPO": 204, "DIM_EQUIPO": 20, "DIM_TEMPORADA": ...
