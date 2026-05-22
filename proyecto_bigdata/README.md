@@ -140,7 +140,7 @@ Abre `notebooks/03_pyspark_cubo_colab.ipynb` en Google Colab:
 
 ## Google Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rmvillena04-cmyk/proyecto-bigdata-laliga/blob/main/notebooks/03_pyspark_cubo_colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uu0Ne0k1lge1D4Gm7fmDP8DLiPDXO7tA)
 
 ---
 
