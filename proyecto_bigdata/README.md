@@ -1,7 +1,7 @@
 # Análisis de Rendimiento en el Fútbol Europeo
 ### Pipeline ETL · EDA · Cubo Dimensional con PySpark
 **Asignatura:** Introducción a los Sistemas Big Data — UFV 2025-2026  
-**Integrantes:** Pablo Peredo · Rodrigo Urrutia · Ricardo Sada · Nicolás Quetg
+**Integrantes:** Raúl Moreno, Javier Ruiz, Íñigo Val y Daniel Vaquero
 
 ---
 
